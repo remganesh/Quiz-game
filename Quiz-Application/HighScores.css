@@ -1,0 +1,38 @@
+.head{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid black;
+}
+.head li{
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    margin: auto;
+    font-weight: 700;
+}
+.body1 ul{
+   display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(86,64,98,0.3);
+  border-radius: 5px;
+} 
+.body1 ul li{
+    width: 100%;
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+}
+.Home{
+     margin-top: 15px;
+}
+.Home a{
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(20,76,165,0.233);
+    padding: 6px;
+}
+.Home a:hover{
+    background-color:  rgba(78,165,87,0.6);
+}
