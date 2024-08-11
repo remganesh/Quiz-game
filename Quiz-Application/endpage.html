@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>endPage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="end.css"> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-content">
+                <h1>Total Score:</h1>
+                <h1 id="Total">0</h1>
+                <form>
+                    <input type="text" id="user" name="user" placeholder="Enter your name">
+                    <button class="choice-container" type="submit" id="saveScore" onclick="saveYourScore(event)" disabled>Save</button>
+                </form>
+                <a href="home.html" class="choice-container">Play Again</a>
+                <a href="HighScores.html" class="choice-container">Leaderboard</a>
+            </div>
+        </div>
+        <script src="end.js"></script>
+    </body>
+</html>
